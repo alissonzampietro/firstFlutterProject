@@ -14,7 +14,11 @@ void main() {
               fontSize: 35,
               fontStyle: FontStyle.normal,
               fontWeight: FontWeight.normal,
-              letterSpacing: 10,
+              letterSpacing: 0,
+              decoration: TextDecoration.underline,
+              decorationColor: Colors.pink,
+              decorationStyle: TextDecorationStyle.dotted,
+              wordSpacing: 0,
               color: Colors.deepPurple
             ),
           ),
