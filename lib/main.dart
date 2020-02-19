@@ -6,7 +6,9 @@ void main() {
     title: "Daily Phrases",
     home: Container(
       color: Colors.white,
+      // When you use child, you can define only one object
       child: Column(
+        // With children, you can define multiples columns
         children: <Widget>[
           Text(
             "Lorem Ipsum",
