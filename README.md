@@ -1,12 +1,12 @@
-# daily_phrases
+# Starting with Flutter
 
 A new Flutter application.
 
-## Getting Started
+## Content
 
-## Layout Objects
-* [Alignment](lib/modules/WidgetAlignment.dart)
-* [Button](lib/modules/CustomButton.dart)
-* [Padding](lib/modules/WidgetPadding.dart)
-* [Spacing](lib/modules/CustomSpacing.dart)
-* [Text](lib/modules/CustomText.dart)
+* [Layout Objects](lib/modules/LayoutObjects.dart)
+    * [Alignment](lib/modules/LayoutObjects/WidgetAlignment.dart)
+    * [Button](lib/modules/LayoutObjects/CustomButton.dart)
+    * [Padding](lib/modules/LayoutObjects/WidgetPadding.dart)
+    * [Spacing](lib/modules/LayoutObjects/CustomSpacing.dart)
+    * [Text](lib/modules/LayoutObjects/CustomText.dart)
