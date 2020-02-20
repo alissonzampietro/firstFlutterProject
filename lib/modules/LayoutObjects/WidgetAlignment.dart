@@ -9,7 +9,11 @@ class WidgetAlignment extends StatelessWidget {
         Text('t2'),
         Text('t3'),
       ],
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      /* Below, you define the posiiton of the items, in the
+         main line and in the cross line
+      */
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.center,
     );
   }
 }
