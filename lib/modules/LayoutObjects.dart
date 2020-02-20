@@ -1,3 +1,4 @@
+import 'package:daily_phrases/modules/LayoutObjects/WidgetImages.dart';
 import 'package:flutter/material.dart';
 import 'package:daily_phrases/modules/LayoutObjects/WidgetAlignment.dart';
 import 'package:daily_phrases/modules/LayoutObjects/CustomButton.dart';
@@ -17,7 +18,7 @@ class LayoutObjects extends StatelessWidget {
           )
       ),
       // When you use child, you can define only one object
-      child: WidgetAlignment(),
+      child: WidgetImages(),
     );
   }
 }
