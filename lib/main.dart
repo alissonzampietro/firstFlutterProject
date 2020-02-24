@@ -9,7 +9,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     // home: MyScaffold()
     // home: LayoutObjects()
-    home: TypesOfWidgets()
+     home: TypesOfWidgets()
     ),
   );
 }
