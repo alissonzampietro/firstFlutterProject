@@ -17,9 +17,8 @@ class Statefull extends StatefulWidget {
 class _StatefullState extends State<Statefull> {
   var _title = 'Instagram';
   final NameText = TextEditingController();
-  var _text = 'Alisson Zampietro';
+  var _text = '';
   // obtain shared preferences
-  final prefs = await SharedPreferences.getInstance();
 
   @override
   Widget build(BuildContext context) {
@@ -45,11 +44,11 @@ class _StatefullState extends State<Statefull> {
                 highlightColor: Colors.amber,
                 onPressed: (){
                   setState(() {
-                    _text = 'Rodrigues Alisson';
+                    _text = NameText.value.text;
                   });
                 }
             ),
-            Text("Nome: ${NameText.value.text}")
+            Text("Nome: $_text")
           ],
         ),
       ),

@@ -15,4 +15,5 @@ A new Flutter application.
 * [Widgets](lib/modules/TypesOfWidgets.dart)
     * [Statefull](lib/modules/TypesWidgets/Statefull.dart) are widgets that can be changed
         * [createState method](lib/modules/TypesWidgets/Statefull.dart#L11) are widgets that can be changed
+        * [setState method](lib/modules/TypesWidgets/Statefull.dart#L46)
     * [Stateless](lib/modules/TypesWidgets/Stateless.dart) are widgets that can't be changed
