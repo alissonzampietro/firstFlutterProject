@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
 
-class  extends StatefulWidget {
+class Statefull extends StatefulWidget {
+  /*
+  * Here is just a calling a named function,
+  * but if you want, you can set that as
+  * anonymous
+  * */
   @override
-  _State createState() => _State();
+  /*
+  * createState, is the method that flutter uses
+  * to create the state method
+  * */
+  _StatefullState createState() => _StatefullState();
 }
 
-class _State extends State<> {
+class _StatefullState extends State<Statefull> {
   @override
   Widget build(BuildContext context) {
     return Container();
   }
 }
+
