@@ -30,7 +30,11 @@ class _StatefullState extends State<Statefull> {
       body: Container(
         child: Column(
           children: <Widget>[
-            TextFormField(
+            /*
+             * You can see the method
+             * that created an input, and some properties
+             */
+              TextFormField(
               style: new TextStyle(),
               controller: NameText,
               decoration: InputDecoration(
