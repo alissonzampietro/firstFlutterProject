@@ -34,7 +34,7 @@ class _DailyPhrasesState extends State<DailyPhrases> {
                   ],
                 ),
                 Padding(
-                    padding: EdgeInsets.only(),
+                    padding: EdgeInsets.all(16),
                     child:
                     Text(
                       _message,
@@ -50,7 +50,9 @@ class _DailyPhrasesState extends State<DailyPhrases> {
                   children: <Widget>[
                     RaisedButton(
                         onPressed: (){},
-                        color:Colors.amber,
+                        textColor: Colors.white,
+                        color:Colors.green,
+                        padding: EdgeInsets.all(30),
                         child: Text('Generate Message'),
                     )
                   ],
