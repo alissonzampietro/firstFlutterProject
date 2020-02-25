@@ -1,3 +1,4 @@
+import 'package:daily_phrases/modules/DailyPhrases/DailyPhrases.dart';
 import 'package:daily_phrases/modules/LayoutObjects.dart';
 import 'package:daily_phrases/modules/MyScaffold.dart';
 import 'package:daily_phrases/modules/TypesOfWidgets.dart';
@@ -9,7 +10,8 @@ void main() {
     debugShowCheckedModeBanner: false,
     // home: MyScaffold()
     // home: LayoutObjects()
-     home: TypesOfWidgets()
+    // home: TypesOfWidgets()
+    home: DailyPhrases(),
     ),
   );
 }
