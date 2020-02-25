@@ -6,7 +6,7 @@ A new Flutter application.
 
 
 * [Data types](#)
-    * [Array/Lists](lib/modules/LayoutObjects/DailyPhrases/DailyPhrases.dart#L14)
+    * [Array/Lists](lib/modules/DailyPhrases/DailyPhrases.dart#L14)
 
 * [Layout Objects](lib/modules/LayoutObjects.dart)
     * [Alignment](lib/modules/LayoutObjects/WidgetAlignment.dart)
