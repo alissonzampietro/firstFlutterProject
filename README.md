@@ -4,6 +4,10 @@ A new Flutter application.
 
 ## Content
 
+
+* [Data types](#)
+    * [Array/Lists](lib/modules/LayoutObjects/DailyPhrases/DailyPhrases.dart#L14)
+
 * [Layout Objects](lib/modules/LayoutObjects.dart)
     * [Alignment](lib/modules/LayoutObjects/WidgetAlignment.dart)
     * [Button](lib/modules/LayoutObjects/CustomButton.dart)
