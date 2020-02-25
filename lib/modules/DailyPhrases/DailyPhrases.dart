@@ -17,28 +17,34 @@ class _DailyPhrasesState extends State<DailyPhrases> {
         backgroundColor: Colors.green,
       ),
       body: Container(
-        child: Row(
+        /*decoration: BoxDecoration(
+          border: Border.all(width: 3, color: Colors.amber)
+        ),*/
+        margin: EdgeInsets.all(20),
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Column(
-              children: <Widget>[
                 Padding(
-                  padding: EdgeInsets.fromLTRB(0, 80, 0, 0),
+                  padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                   child: Image.asset(
                         'images/logo.png',
                         fit: BoxFit.fill
                     ),
                 ),
-                Row(
-                  heightFactor: 10,
-                  child: Text(
+                Padding(
+                  padding: EdgeInsets.only(top: 120, bottom: 120),
+                  child:
+                    Text(
                       _message,
+                      maxLines: 100,
+                      textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 20
+                          fontSize: 20
                       ),
-                  ),
+                    ),
                 ),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     RaisedButton(
                         onPressed: (){},
@@ -47,8 +53,6 @@ class _DailyPhrasesState extends State<DailyPhrases> {
                     )
                   ],
                 ),
-              ],
-            ),
           ],
         )
       ),
