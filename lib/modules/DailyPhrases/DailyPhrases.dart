@@ -20,20 +20,22 @@ class _DailyPhrasesState extends State<DailyPhrases> {
         /*decoration: BoxDecoration(
           border: Border.all(width: 3, color: Colors.amber)
         ),*/
-        margin: EdgeInsets.all(20),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                  child: Image.asset(
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Image.asset(
                         'images/logo.png',
                         fit: BoxFit.fill
                     ),
+                  ],
                 ),
                 Padding(
-                  padding: EdgeInsets.only(top: 120, bottom: 120),
-                  child:
+                    padding: EdgeInsets.only(),
+                    child:
                     Text(
                       _message,
                       maxLines: 100,
