@@ -17,6 +17,17 @@ class _RoutesState extends State<Routes> {
     Navigator.pop(context);
   }
 
+  Text customText(String text) {
+      return Text(
+          text,
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 13,
+            fontWeight: FontWeight.bold
+          ),
+      );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -69,13 +80,14 @@ class _RoutesState extends State<Routes> {
       ),
       body: this.bodyContent,
       bottomNavigationBar: BottomAppBar(
-        color: Colors.amberAccent,
+        color: Colors.blue,
         child: Padding(
           padding: EdgeInsets.all(20),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              Text('All rights'),
-              Text('2020'),
+              customText('All rights'),
+              customText('2020'),
             ],
           ),
         ),
