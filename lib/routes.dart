@@ -14,6 +14,7 @@ class _RoutesState extends State<Routes> {
 
   void changeContentBody(Widget obj) {
     this.setState(() => this.bodyContent = obj);
+    Navigator.pop(context);
   }
 
   @override
@@ -47,12 +48,21 @@ class _RoutesState extends State<Routes> {
               subtitle: Text("App to generate Phrases"),
               trailing: Icon(Icons.access_alarm),
               onTap: () => changeContentBody(DailyPhrases()),
+              selected: this.bodyContent.toString() == "DailyPhrases",
             ),
             ListTile(
               title: Text("Layout Object"),
               subtitle: Text("Some layout objects from flutter"),
               trailing: Icon(Icons.wb_incandescent),
               onTap: () => changeContentBody(LayoutObjects()),
+              selected: this.bodyContent.toString() == "LayoutObjects",
+            ),
+            ListTile(
+              title: Text("Widgets Types"),
+              subtitle: Text("Some widgets type"),
+              trailing: Icon(Icons.computer),
+              onTap: () => changeContentBody(TypesOfWidgets()),
+              selected: this.bodyContent.toString() == "TypesOfWidgets",
             ),
           ],
         ),
