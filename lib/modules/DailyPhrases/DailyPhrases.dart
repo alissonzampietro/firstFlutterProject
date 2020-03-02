@@ -47,12 +47,7 @@ class _DailyPhrasesState extends State<DailyPhrases> {
 
     int number = 0;
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Frases do dia"),
-        backgroundColor: Colors.green,
-      ),
-      body: Container(
+    return Container(
         padding: EdgeInsets.only(top: 80, bottom: 80),
         /*decoration: BoxDecoration(
           border: Border.all(width: 3, color: Colors.amber)
@@ -96,7 +91,6 @@ class _DailyPhrasesState extends State<DailyPhrases> {
                 ),
           ],
         )
-      ),
-    );
+      );
   }
 }
