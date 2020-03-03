@@ -45,6 +45,7 @@ class _InputTextState extends State<InputText> {
                 ),
                 // -- the text gonna be hidden
                 // obscureText: true,
+                // -- STARTING EVENTS
                 // -- pass value to function according each type that user gives
                 // onChanged: (String data) => this.updateAmmount(data),
                 // -- pass value to function only when the data is submitted
@@ -61,6 +62,7 @@ class _InputTextState extends State<InputText> {
             },
           ),
           Text('Your account: \$${this.myAccount}'),
+          // Using controller, you can get the submitted value
           Text('Checked value: \$${this._textEditingController.text}'),
         ],
       )
