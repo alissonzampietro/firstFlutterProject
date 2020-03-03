@@ -10,7 +10,16 @@ A new Flutter application.
 
 * [Data types](#)
     * [Array/Lists](lib/modules/DailyPhrases/DailyPhrases.dart#L14)
-
+* [Input data](#)
+    * [Decorations/Input name](modules/inputs_tests/lib/InputText.dart)
+    * [Enable/Disable](modules/inputs_tests/lib/InputText.dart)
+    * [Events](modules/inputs_tests/lib/InputText.dart)
+        * [onChanged](modules/inputs_tests/lib/InputText.dart) 
+        * [onSubmitted](modules/inputs_tests/lib/InputText.dart) 
+    * [Max Length](modules/inputs_tests/lib/InputText.dart)
+    * [Max Length Enforced](modules/inputs_tests/lib/InputText.dart)
+    * [Obscure Text (like password)](modules/inputs_tests/lib/InputText.dart)
+    * [Types](modules/inputs_tests/lib/InputText.dart)
 * [Layout Objects](lib/modules/LayoutObjects.dart)
     * [Alignment](lib/modules/LayoutObjects/WidgetAlignment.dart#L15)
     * [Button](lib/modules/LayoutObjects/CustomButton.dart#L7)
