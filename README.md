@@ -23,6 +23,7 @@ A new Flutter application.
     * [Types](modules/inputs_tests/lib/inputText.dart#L33)
 * [Layout Objects](lib/modules/LayoutObjects.dart)
     * [Alignment](lib/modules/LayoutObjects/WidgetAlignment.dart#L15)
+        * [CrossAxisAlignment.stretch](modules/best_fuel/lib/src/home.dart) (Stretch all object inside the element)
     * [Button](lib/modules/LayoutObjects/CustomButton.dart#L7)
     * [Images](lib/modules/LayoutObjects/WidgetImages.dart#L6)
     * [Inputs](lib/modules/TypesWidgets/Statefull.dart#L37)
