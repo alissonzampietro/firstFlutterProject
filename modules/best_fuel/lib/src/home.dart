@@ -40,6 +40,11 @@ class _HomeState extends State<Home> {
         ),
         body: Container(
           padding: EdgeInsets.only(left: 40, right: 40, top: 30),
+        /*
+        When you use SingleChildScrollView it allows you to scroll
+        that specific container where you are defining the object,
+        in this case, the scroll happens only in the Container's child
+        */
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
