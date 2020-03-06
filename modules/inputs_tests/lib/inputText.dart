@@ -20,11 +20,7 @@ class _InputTextState extends State<InputText> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Input data"),
-      ),
-      body: Column(
+    return Column(
         children: <Widget>[
           Padding(
               padding: EdgeInsets.all(32),
@@ -58,14 +54,13 @@ class _InputTextState extends State<InputText> {
             child: Text('Save data'),
             color: Colors.lightGreen,
             onPressed: (){
-              print(this._textEditingController.text);
+              this.updateAmmount(this._textEditingController.text);
             },
           ),
           Text('Your account: \$${this.myAccount}'),
           // Using controller, you can get the submitted value
           Text('Checked value: \$${this._textEditingController.text}'),
         ],
-      )
-    );
+      );
   }
 }

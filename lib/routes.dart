@@ -74,7 +74,7 @@ class _RoutesState extends State<Routes> {
               trailing: Icon(Icons.computer),
               onTap: () => changeContentBody(TypesOfWidgets()),
               selected: this.bodyContent.toString() == "TypesOfWidgets",
-            ),
+            )
           ],
         ),
       ),

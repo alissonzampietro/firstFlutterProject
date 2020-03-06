@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
         /*
         When you use SingleChildScrollView it allows you to scroll
         that specific container where you are defining the object,
-        in this case, the scroll happens only in the Container's child
+        in this case, the scroll happens only in the Container
         */
           child: SingleChildScrollView(
             child: Column(
