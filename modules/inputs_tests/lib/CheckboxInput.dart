@@ -8,6 +8,10 @@ class CheckboxInput extends StatefulWidget {
 class _CheckboxInputState extends State<CheckboxInput> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: <Widget>[
+        Text('Funcionando')
+      ],
+    );
   }
 }

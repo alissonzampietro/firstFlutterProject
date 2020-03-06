@@ -10,8 +10,8 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-  Widget bodyContent;
-  String selectedItem = 'InputText';
+  Widget bodyContent = CheckboxInput();
+  String selectedItem = 'CheckboxInput';
 
   void _changeBody(Widget element) {
     this.selectedItem = element.toString();
@@ -48,14 +48,14 @@ class _HomeState extends State<Home> {
                 )
             ),
             ListTile(
-              title: Text('Inputs Text'),
-              selected: this.selectedItem == "InputText",
-              onTap: () => this._changeBody(InputText()),
-            ),
-            ListTile(
               title: Text('Checkboxes'),
               selected: this.selectedItem == "CheckboxInput",
               onTap: () => this._changeBody(CheckboxInput()),
+            ),
+            ListTile(
+              title: Text('Inputs Text'),
+              selected: this.selectedItem == "InputText",
+              onTap: () => this._changeBody(InputText()),
             ),
           ],
         ),
