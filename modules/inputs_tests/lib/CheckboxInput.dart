@@ -22,14 +22,15 @@ class _CheckboxInputState extends State<CheckboxInput> {
         child: Row(
           children: <Widget>[
             //SECOND WAY
-            CheckboxListTile(value: false, onChanged: (bool data){})
+            // CheckboxListTile(value: false, onChanged: (bool data){})
 
             // FIRST WAY
-            /*Text('Do you like Brazilian Food?'),
+            Text('Do you like Brazilian Food?'),
             Checkbox(
+              // below you define the initial value
               value: this._likeBrazilianFood,
               onChanged: (bool value) => this.toogle(value),
-            )*/
+            )
           ],
         ),
     );
